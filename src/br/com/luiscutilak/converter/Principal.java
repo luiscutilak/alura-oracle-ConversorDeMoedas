@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.sql.SQLOutput;
 import java.text.DecimalFormat;
 import java.util.HashMap;
 import java.util.Scanner;
@@ -24,7 +25,10 @@ public class Principal {
         currencyCodes.put(5, "CNY");
         currencyCodes.put(6, "INR");
 
-        String fromCode, toCode;
+        Integer from;
+        Integer to = 0;
+        String fromCode;
+        String toCode;
         double amount;
 
         Scanner sc = new Scanner(System.in);
@@ -35,12 +39,28 @@ public class Principal {
         //Moeda atual que o usuario deseja ser convertida.
         System.out.println("Qual a sua moeda que deseja converter?");
         System.out.println("1:USD(US Dollar) \t 2:BRL(Brasil Reais) \t 3:EUR(Euro) \t 4:JPY(Iene Japones) \t 5:CNY(Yuan Chines) \t 6:INR(Rupia Indiana)");
-        fromCode = currencyCodes.get(sc.nextInt());
+        from = sc.nextInt();
+
+        //Loop while que instrui o usuario a digitar a opção correta, enquanto ele nao digitar opção válida esse loop continua instruindo.
+        while(from < 1 || from > 6) {
+            System.out.println("Por favor selecione um opção válida(1 a 6)");
+            System.out.println("1:USD(US Dollar) \t 2:BRL(Brasil Reais) \t 3:EUR(Euro) \t 4:JPY(Iene Japones) \t 5:CNY(Yuan Chines) \t 6:INR(Rupia Indiana)");
+            from = sc.nextInt();
+        }
+        fromCode = currencyCodes.get(from);
 
         //Moeda destino para conversão que o usuario deseja
         System.out.println("Deseja converter para qual moeda?");
         System.out.println("1:USD(US Dollar) \t 2:BRL(Brasil Reais) \t 3:EUR(Euro) \t 4:JPY(Iene Japones) \t 5:CNY(Yuan Chines) \t 6:INR(Rupia Indiana)");
-        toCode = currencyCodes.get(sc.nextInt());
+        from = sc.nextInt();
+
+        //Loop 2 while, que instrui o usuario a digitar a opção correta, da moeda a ser convertida, loop continua instruindo o usuario a opção correta da moeda..
+        while(to < 1 || to > 6) {
+            System.out.println("Por favor selecione um opção válida(1 a 6)");
+            System.out.println("1:USD(US Dollar) \t 2:BRL(Brasil Reais) \t 3:EUR(Euro) \t 4:JPY(Iene Japones) \t 5:CNY(Yuan Chines) \t 6:INR(Rupia Indiana)");
+            to = sc.nextInt();
+        }
+        toCode = currencyCodes.get(to);
 
         System.out.println("Agora digite o montante(valor) para qual deseja a conversão");
         amount = sc.nextFloat();
