@@ -4,7 +4,7 @@
 
 <p align="center">
 <img  loading="lazy" ![Badge Concluído] src="http://img.shields.io/static/v1?label=STATUS&message=EM%20CONCLUÍDO&color=GREEN&style=for-the-badge"/>
-
+</p>
 # 💱: Funcionalidades do Projeto:
 
 - `1 - Valor da moeda atual`: Cotação em tempo real da moeda desejada pelo usuário.
