@@ -1,5 +1,6 @@
 ﻿<h1 align="center">alura+oracle-Conversor De Moedas </h1>
-![dollars and bitcoin image](https://imgur.com/cnHYfCV)
+![dollars and bitcoin image](https://github.com/luiscutilak/alura-oracle-ConversorDeMoedas/assets/87094060/f9945833-2293-4e8e-9285-af7b1925a6d6)
+
 
 <p align="center">
 <img  loading="lazy" ![Badge Concluído] src="http://img.shields.io/static/v1?label=STATUS&message=EM%20CONCLUÍDO&color=GREEN&style=for-the-badge"/>
