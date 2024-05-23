@@ -1,5 +1,6 @@
 ﻿<h1 align="center">alura+oracle-Conversor De Moedas </h1>
-![dollars and bitcoin image](https://pasteboard.co/zu5CwjBCO1dM.png)
+![dollars and bitcoin image](https://github.com/luiscutilak/alura-oracle-ConversorDeMoedas/assets/87094060/9a9b3892-2462-4a65-889c-1b26e450d1e8)
+
 <p align="center">
 <img  loading="lazy" ![Badge Concluído] src="http://img.shields.io/static/v1?label=STATUS&message=EM%20CONCLUÍDO&color=GREEN&style=for-the-badge"/>
 
@@ -8,6 +9,8 @@
 - `1 - Valor da moeda atual`: Cotação em tempo real da moeda desejada pelo usuário.
 - `2 - Converter valores`: Converter o valor do montante escolhido pelo usuário, para a moeda de destino.
 - `3 - Interação ágil`: Interação com o usuário de fácil entendimento.
+
+  
 ![Video_240523095806](https://github.com/luiscutilak/alura-oracle-ConversorDeMoedas/assets/87094060/1550199c-d142-453d-a964-704236d0594d)
 
 
@@ -16,6 +19,6 @@ Tecnologias Utilizadas:
 
 # Autores
 
-| [<img loading="lazy" src="https://github.com/luiscutilak/alura-oracle-ConversorDeMoedas/assets/87094060/97628bc5-5d9f-4a40-b19a-8584d53e80d5" width=115><br><sub>Luís Fernando Cutilak</sub>](https://github.com/luiscutilak) |
+| [<img loading="lazy" src="https://github.com/luiscutilak/alura-oracle-ConversorDeMoedas/assets/87094060/97628bc5-5d9f-4a40-b19a-8584d53e80d5" width=115><br><sub>LuísFernandoCutilak</sub>](https://github.com/luiscutilak) |
 | :---: |
 
