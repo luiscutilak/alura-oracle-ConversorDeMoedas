@@ -16,6 +16,6 @@ Tecnologias Utilizadas:
 
 # Autores
 
-| [<img loading="lazy" src="[https://pasteboard.co/oKryFRaPbdEZ.jpg](https://github.com/luiscutilak/alura-oracle-ConversorDeMoedas/assets/87094060/97628bc5-5d9f-4a40-b19a-8584d53e80d5)" width=115><br><sub>Luís Fernando Cutilak</sub>](https://github.com/luiscutilak) |
+| [<img loading="lazy" src="https://github.com/luiscutilak/alura-oracle-ConversorDeMoedas/assets/87094060/97628bc5-5d9f-4a40-b19a-8584d53e80d5" width=115><br><sub>Luís Fernando Cutilak</sub>](https://github.com/luiscutilak) |
 | :---: |
-![pictureperfil1](https://github.com/luiscutilak/alura-oracle-ConversorDeMoedas/assets/87094060/97628bc5-5d9f-4a40-b19a-8584d53e80d5)
+
