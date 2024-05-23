@@ -11,10 +11,10 @@
 
    
 
-https://github.com/luiscutilak/alura-oracle-ConversorDeMoedas/assets/87094060/16233ba6-f3cc-4274-a39b-28d9ab3664cc
 
 Tecnologias Utilizadas:
 
+![Video_240523095806](https://github.com/luiscutilak/alura-oracle-ConversorDeMoedas/assets/87094060/1550199c-d142-453d-a964-704236d0594d)
 
 # Autores
 
