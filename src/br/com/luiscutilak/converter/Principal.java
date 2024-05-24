@@ -110,7 +110,7 @@ public class Principal {
 
             //convertendo resposta, criando um objeto Json.
             JSONObject json = new JSONObject(response.toString());
-            BigDecimal conversionRate = json.getBigDecimal("conversion_rate");
+            BigDecimal conversionRate = json.getBigDecimal("conversion_rate"); // O uso do BigDecimal si da por conta que conversion_rate é um bigdecimal e não um objeto Json.
             System.out.println("Taxa de conversão: " + conversionRate);
             System.out.println();
             BigDecimal result = amount.divide(conversionRate, RoundingMode.HALF_UP);
